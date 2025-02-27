@@ -3,8 +3,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Pretty flowers like you').split('')
-     const titles = ('The positive energy you share').split('')
+    const titles = ('Pretty flowers like you\nThe positive energy you share').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
